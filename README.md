@@ -40,11 +40,22 @@ XGBoost achieved the highest test accuracy. All six runs and registered model ve
 ```text
 beverage-price-prediction/
 |-- train_mlflow.py
+|-- app.py
+|-- model/
+|   `-- xgboost_pipeline.pkl
 |-- requirements.txt
 |-- data/
 |   `-- README.md
 |-- .gitignore
 `-- README.md
+```
+
+## Interactive application
+
+The Streamlit application uses the tracked XGBoost pipeline to generate live price-range predictions and display the full class-probability distribution.
+
+```powershell
+.\.venv\Scripts\streamlit.exe run app.py
 ```
 
 ## Data privacy
