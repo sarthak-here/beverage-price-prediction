@@ -1,0 +1,8 @@
+dagshub==0.7.2
+lightgbm==4.7.0
+matplotlib==3.11.0
+mlflow==3.16.1
+pandas==3.0.5
+scikit-learn==1.8.0
+xgboost==3.1.3
+

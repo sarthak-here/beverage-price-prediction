@@ -1,0 +1,13 @@
+.venv/
+.env
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+mlruns/
+mlflow.db
+mlartifacts/
+outputs/
+data/*.csv
+data/*.parquet
+*.pdf
+*.zip
