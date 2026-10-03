@@ -58,6 +58,12 @@ The Streamlit application uses the tracked XGBoost pipeline to generate live pri
 .\.venv\Scripts\streamlit.exe run app.py
 ```
 
+## Client presentation
+
+The `presentation/` folder contains:
+
+- An editable seven-slide PowerPoint focused on the business problem, recommendation, and rollout plan.
+
 ## Data privacy
 
 The source survey is not committed to GitHub or logged as an MLflow artifact. Runs contain aggregate metrics, evaluation reports, plots, and fitted model pipelines only.

@@ -7,6 +7,10 @@ mlruns/
 mlflow.db
 mlartifacts/
 outputs/
+.presentation-build/
+.codex-finalizer/
+.chart-data-*/
+presentation/CLIENT_PRESENTATION_SCRIPT.md
 data/*.csv
 data/*.parquet
 *.pdf
